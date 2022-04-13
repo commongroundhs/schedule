@@ -1,0 +1,40 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --bodyText: 16px;
+  --headingText: 20px;
+  --biggerText: 18px;
+  --smallerText: 14px;
+}
+
+button {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: var(--headingText);
+}
+
+p, pre {
+  font-size: var(--bodyText);
+}
+
+p pre {
+  display: inline;
+}
+
+.body-container {
+  max-width: 700px;
+  margin:auto;
+}
+
+.button-container p {
+  display: inline;
+}
+
+#bigA {
+  font-size: var(--biggerText);
+}
+
+#smallA {
+  font-size: var(--smallerText);
+}
